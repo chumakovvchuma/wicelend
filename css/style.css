@@ -1,0 +1,136 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+body {
+  background:url(../img/background.png) no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  color: rgb(0, 0, 0);
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+  margin:0;
+}
+.bottom-row {
+  margin-top: 7vh;
+    position: inherit;
+}
+
+.header-img {
+  background: url(../img/header.png) no-repeat;
+  width: 100vw;
+  height: 217px;
+  top: 0;
+  position: absolute;
+  }
+.footer-img {
+background: url(../img/footer.png) no-repeat;
+width: 100vw;
+height: 217px;
+bottom: 0;
+position: absolute;
+}
+
+.menu-one {
+  background: url("../img/recl.png") no-repeat;
+  width: 272px;
+  height: 264px;
+}
+.menu-one:hover {
+  background: url("../img/reclh.png");
+  width: 272px;
+  height: 264px;
+}
+.menu-two {
+  background: url("../img/recc.png") no-repeat;
+  width: 272px;
+  height: 264px;
+}
+.menu-two:hover {
+  background: url("../img/recch.png");
+  width: 272px;
+  height: 264px;
+}
+.menu-three {
+  background: url("../img/recr.png") no-repeat;
+  width: 272px;
+  height: 264px;
+}
+.menu-three:hover {
+  background: url("../img/recrh.png");
+  width: 272px;
+  height: 264px;
+}
+
+.menu-icon-l {
+  background: url("../img/compl.png") no-repeat;
+  width: 190px;
+  height: 233px;
+  margin-left: 1vh;
+  margin-top: 1vw;
+}
+.menu-icon-c {
+  background: url("../img/compc.png") no-repeat;
+  width: 190px;
+  height: 233px;
+  margin-left: 5vh;
+  margin-top: 1vw;
+}
+.menu-icon-r {
+  background: url("../img/compr.png") no-repeat;
+  width: 190px;
+  height: 233px;
+  margin-left: 1vh;
+  margin-top: 1vw;
+}
+
+.carousel {
+  height: 350px;
+  margin-top: 2vw;
+}
+.carouselItem {
+  width: 30vh;
+  height: 20vw;
+  border-radius: 20px;
+  margin-top: 11vh;
+}
+.project-img {
+  background: url(../img/meet.png) no-repeat;
+width: 512px;
+height: 285px;
+margin-top: 29vw;
+margin-left: 67vh;
+position: absolute;
+}
+.logo-two {
+  background: url(../img/wcttwo.png) no-repeat;
+  width: 359px;
+  height: 170px;
+  margin-top: 0vw;
+  margin-left: 148vh;
+  position: absolute;
+}
+
+
+
+
+/* mobile */
+.header-img-m {
+  background: url(../img/headerm.png) no-repeat;
+  width: 100vw;
+  height: 217px;
+  top: 0;
+  position: absolute;
+}
+
+.footer-img-m {
+  background: url(../img/footerm.png) no-repeat;
+  width: 100vw;
+  height: 217px;
+  bottom: 0;
+  position: absolute;
+}
+
