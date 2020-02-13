@@ -24,6 +24,7 @@ body {
   width: 100vw;
   height: 217px;
   top: 0;
+  background-size: 100vw;
   position: absolute;
   }
 .footer-img {
@@ -32,6 +33,7 @@ width: 100vw;
 height: 217px;
 bottom: 0;
 position: absolute;
+background-size: 100vw;
 }
 
 .menu-one {
@@ -124,6 +126,7 @@ position: absolute;
   height: 217px;
   top: 0;
   position: absolute;
+  background-size: 100vw;
 }
 
 .footer-img-m {
@@ -132,5 +135,6 @@ position: absolute;
   height: 217px;
   bottom: 0;
   position: absolute;
+  background-size: 100vw;
 }
 
