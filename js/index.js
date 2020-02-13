@@ -1,10 +1,6 @@
 // @ts-nocheck
 $( document ).ready(function(){
-  $( window ).height({
-    "pageshow": function() {
-      console.log(height)
-    }
-  })
+
   $( ".link-to-two" ).on({ 
     "click": function() { 
         $.scrollify.next();
