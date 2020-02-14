@@ -9,7 +9,7 @@
       sectionName : "section-name",
       interstitialSection : "",
       easing: "easeOutExpo",
-      scrollSpeed: 1100,
+      scrollSpeed: 1800,
       offset : 0,
       scrollbars: false,
       standardScrollElements: "",
@@ -17,8 +17,16 @@
       overflowScroll: true,
       updateHash: true,
       touchScroll:true,
-      before:function() {},
-      after:function() {},
+      before:function() {
+        console.log("hi");
+        
+          $( ".menu-one" ).slideToggle("slow");
+          $( ".menu-two" ).slideToggle("slow");
+          $( ".menu-three" ).slideToggle("slow");
+        },       
+      after:function() {
+        console.log("hii");
+      },
       afterResize:function() {},
       afterRender:function() {}
     });
