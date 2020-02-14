@@ -7,7 +7,7 @@
  */
 
 body {
-  background:url(../img/background.png) no-repeat;
+  background:url("../img/background.png");
   background-attachment: fixed;
   background-size: cover;
   color: rgb(0, 0, 0);
@@ -20,74 +20,246 @@ body {
 }
 
 .header-img {
-  background: url(../img/header.png) no-repeat;
+  background: url("../img/header.png") no-repeat;
   width: 100vw;
-  height: 31vh;
+  height: 217px;
   top: 0;
   background-size: 100vw;
   position: absolute;
+  background-size: cover;
   }
 .footer-img {
-background: url(../img/footer.png) no-repeat;
+background: url("../img/footer.png") no-repeat;
 width: 100vw;
-height: 31vh;
+height: 217px;
 bottom: 0;
 position: absolute;
 background-size: 100vw;
+background-blend-mode: normal;
+background-size: cover;
 }
+
+
+
 
 .menu-one {
   background: url("../img/recl.png") no-repeat;
   width: 272px;
   height: 264px;
+  bottom: 0;
+  left: calc(25vw - 14vw);
+
+  position: absolute;
+  
 }
+.icon-one {
+  background: url("../img/com11.png");
+  width: 122px;
+  height: 122px;
+  left: calc(50% - 122px/2);
+  top: 1%;
+  position: absolute;
+}
+
 .menu-one:hover {
   background: url("../img/reclh.png");
   width: 272px;
   height: 264px;
+  bottom: 0;
+  position: absolute;
+  left: calc(25vw - 14vw);
+  
 }
+.header-one {
+  left: calc(50% - 106px/2);
+  width: 106px;
+height: 18px;
+font-family: Russo One;
+font-style: normal;
+font-weight: normal;
+font-size: 26px;
+line-height: 70.5%;
+text-align: center;
+color: #005C69;
+position: absolute;
+top: 50%;
+}
+.text-one {
+  left: calc(50% - 190px/2);
+  width: 190px;
+height: 76px;
+  font-family: PT Sans Narrow;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 70.5%;
+position: absolute;
+text-align: center;
+color: #FAFEFF;
+top: 60%;
+}
+
+
+
+
+
+
 .menu-two {
   background: url("../img/recc.png") no-repeat;
   width: 272px;
   height: 264px;
+  bottom: 0;
+  position: absolute;
+  left: calc(50vw - 272px/2);
 }
+
+.icon-two {
+  background: url("../img/com21.png");
+  width: 122px;
+  height: 122px;
+  left: calc(50% - 122px/2);
+  top: 1%;
+  position: absolute;
+}
+
 .menu-two:hover {
   background: url("../img/recch.png");
   width: 272px;
   height: 264px;
+  bottom: 0;
+  position: absolute;
+  left: calc(50vw - 272px/2);
 }
+.header-two {
+  left: calc(50% - 106px/2);
+  width: 113px;
+  height: 18px;
+font-family: Russo One;
+font-style: normal;
+font-weight: normal;
+font-size: 26px;
+line-height: 70.5%;
+/* or 18px */
+
+text-align: center;
+
+color: #005C69;
+position: absolute;
+top: 50%;
+}
+.text-two {
+  left: calc(50% - 134px/2);
+  width: 134px;
+  height: 77px;
+  font-family: PT Sans Narrow;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 70.5%;
+position: absolute;
+text-align: center;
+color: #FAFEFF;
+top: 60%;
+}
+
+
+
+
+
+
+
+
 .menu-three {
   background: url("../img/recr.png") no-repeat;
   width: 272px;
   height: 264px;
+  bottom: 0;
+  position: absolute;
+  right: calc(25vw - 14vw);
+}
+.icon-three {
+  background: url("../img/com31.png");
+  width: 122px;
+  height: 122px;
+  left: calc(50% - 122px/2);
+  top: 1%;
+  position: absolute;
 }
 .menu-three:hover {
   background: url("../img/recrh.png");
   width: 272px;
   height: 264px;
+  bottom: 0;
+  position: absolute;
+  right: calc(25vw - 14vw);
+}
+.header-three {
+  left: calc(50% - 106px/2);
+  width: 102px;
+  height: 18px;
+font-family: Russo One;
+font-style: normal;
+font-weight: normal;
+font-size: 26px;
+line-height: 70.5%;
+/* or 18px */
+
+text-align: center;
+
+color: #005C69;
+position: absolute;
+top: 50%;
 }
 
-.menu-icon-l {
-  background: url("../img/compl.png") no-repeat;
-  width: 190px;
-  height: 233px;
-  margin-left: 1vh;
-  margin-top: 1vw;
+.text-three {
+  left: calc(50% - 152px/2);
+  width: 152px;
+  height: 73px;
+  font-family: PT Sans Narrow;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 70.5%;
+position: absolute;
+text-align: center;
+color: #FAFEFF;
+top: 60%;
 }
-.menu-icon-c {
-  background: url("../img/compc.png") no-repeat;
-  width: 190px;
-  height: 233px;
-  margin-left: 5vh;
-  margin-top: 1vw;
+
+.logo {
+  background: url("../img/mainLogo.png") no-repeat;
+  position: absolute;
+  width: 651px;
+height: 283px;
+left: calc(50vw - 272px/2);
+top: 11%;
 }
-.menu-icon-r {
-  background: url("../img/compr.png") no-repeat;
-  width: 190px;
-  height: 233px;
-  margin-left: 1vh;
-  margin-top: 1vw;
+
+.logo-text {
+  left: calc(25vw - 15vw);
+  top: 25%;
+  position: absolute;
+  font-family: 'Montserrat', sans-serif;
+width: 313px;
+height: 141px;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 75.5%;
+/* or 15px */
+
+text-align: center;
+letter-spacing: 0.05em;
+
+color: rgba(0, 91, 104, 0.97);
 }
+
+
+
+
+
+
+
 
 .carousel {
   height: 350px;
