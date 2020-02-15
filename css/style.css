@@ -22,7 +22,7 @@ body {
 .header-img {
   background: url("../img/header.png") no-repeat;
   width: 100vw;
-  height: 217px;
+  height: 31vh;
   top: 0;
   background-size: 100vw;
   position: absolute;
@@ -31,12 +31,18 @@ body {
 .footer-img {
 background: url("../img/footer.png") no-repeat;
 width: 100vw;
-height: 217px;
+height: 31vh;
 bottom: 0;
 position: absolute;
 background-size: 100vw;
 background-blend-mode: normal;
 background-size: cover;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%
 }
 
 

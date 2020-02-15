@@ -19,7 +19,6 @@
       touchScroll:true,
       before:function() {
         console.log("hi");
-        
           $( ".menu-one" ).slideToggle("slow");
           $( ".menu-two" ).slideToggle("slow");
           $( ".menu-three" ).slideToggle("slow");
