@@ -268,7 +268,7 @@ color: rgba(0, 91, 104, 0.97);
 
 
 .carousel {
-  height: 350px;
+  height: 65vh;
   margin-top: 2vw;
 }
 .carouselItem {
@@ -281,8 +281,8 @@ color: rgba(0, 91, 104, 0.97);
   background: url(../img/meet.png) no-repeat;
 width: 512px;
 height: 285px;
-margin-top: 29vw;
-margin-left: 67vh;
+bottom: 0;
+left: calc(50% - 512px/2);
 position: absolute;
 }
 .logo-two {
