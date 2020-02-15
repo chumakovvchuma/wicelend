@@ -260,7 +260,11 @@ letter-spacing: 0.05em;
 color: rgba(0, 91, 104, 0.97);
 }
 
-
+.menu {
+  position: sticky;
+  top: 0;
+  z-index:1;
+}
 .page-one-menu {
   left: 4vw;
   width: 113px;
