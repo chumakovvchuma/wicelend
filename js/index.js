@@ -18,9 +18,17 @@ $( document ).ready(function(){
 
 
 
-  $( ".link-to-two-m" ).on({ 
+  $( ".link-two-m" ).on({ 
     "click": function() { 
-        $.scrollify.next();
+      $.scrollify.move("#twoPage");
+  }});
+  $( ".link-three-m" ).on({ 
+    "click": function() { 
+      $.scrollify.move("#threePage");
+  }});
+  $( ".link-four-m" ).on({ 
+    "click": function() { 
+      $.scrollify.move("#fourPage");
   }});
 
 

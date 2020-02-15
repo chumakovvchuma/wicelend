@@ -397,6 +397,10 @@ position: absolute;
   left: 0;
   top:35vh;
 }
+.menu1:hover {
+  background: url("../img/m/menu1h.png") no-repeat;
+}
+
 .menu2 {
   background: url("../img/m/menu2.png") no-repeat;
   width: 60%;
@@ -406,6 +410,9 @@ position: absolute;
   left: 0;
   top:50vh;
 }
+.menu2:hover {
+  background: url("../img/m/menu2h.png") no-repeat;
+}
 .menu3 {
   background: url("../img/m/menu3.png") no-repeat;
   width: 60%;
@@ -414,6 +421,9 @@ position: absolute;
   background-size: contain;
   left: 0;
   top:65vh;
+}
+.menu3:hover {
+  background: url("../img/m/menu3h.png") no-repeat;
 }
 
 .text-one-m {
