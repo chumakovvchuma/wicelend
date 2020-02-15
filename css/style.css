@@ -233,10 +233,10 @@ top: 60%;
 }
 
 .logo {
-  background: url("../img/mainLogo.png") no-repeat;
+  /* background: url("../img/mainLogo.png") no-repeat; */
   position: absolute;
-  width: 651px;
-height: 283px;
+  /* width: 651px;
+height: 283px; */
 left: calc(50vw - 272px/2);
 top: 11%;
 }
