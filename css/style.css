@@ -261,6 +261,63 @@ color: rgba(0, 91, 104, 0.97);
 }
 
 
+.page-one-menu {
+  left: 4vw;
+  width: 113px;
+  height: 10px;
+  font-family: Russo One;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 22px;
+  line-height: 70.5%;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  position: absolute;
+  top: 2vh;
+}
+.page-two-menu {
+  left: 11vw;
+  width: 113px;
+  height: 10px;
+  font-family: Russo One;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 22px;
+  line-height: 70.5%;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  position: absolute;
+  top: 2vh;
+}
+.page-three-menu {
+  left: 18vw;
+  width: 113px;
+  height: 10px;
+  font-family: Russo One;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 22px;
+  line-height: 70.5%;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  position: absolute;
+  top: 2vh;
+}
+.page-four-menu {
+  left: 25vw;
+  width: 113px;
+  height: 10px;
+  font-family: Russo One;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 22px;
+  line-height: 70.5%;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  position: absolute;
+  top: 2vh;
+}
+
 
 
 
@@ -269,7 +326,7 @@ color: rgba(0, 91, 104, 0.97);
 
 .carousel {
   height: 65vh;
-  margin-top: 2vw;
+
 }
 .carouselItem {
   width: 30vh;
@@ -299,7 +356,7 @@ position: absolute;
 
 /* mobile */
 .header-img-m {
-  background: url(../img/headerm.png) no-repeat;
+  background: url("../img/m/header.png") no-repeat;
   width: 100vw;
   height: 217px;
   top: 0;
@@ -308,7 +365,7 @@ position: absolute;
 }
 
 .footer-img-m {
-  background: url(../img/footerm.png) no-repeat;
+  background: url("../img/m/footer.png") no-repeat;
   width: 100vw;
   height: 217px;
   bottom: 0;
@@ -316,3 +373,53 @@ position: absolute;
   background-size: 100vw;
 }
 
+.logo-m {
+  background: url("../img/m/mainLogo.png") no-repeat;
+  width: 100%;
+  display: block;
+  height: 30vh;
+
+  top:2vh;
+  position: absolute;
+  background-size: contain;
+  left: calc(50vw - width/2);
+}
+.menu1 {
+  background: url("../img/m/menu1.png") no-repeat;
+  width: 60%;
+  height: 16vh;
+  position: absolute;
+  background-size: contain;
+  left: 0;
+  top:35vh;
+}
+.menu2 {
+  background: url("../img/m/menu2.png") no-repeat;
+  width: 60%;
+  height: 16vh;
+  position: absolute;
+  background-size: contain;
+  left: 0;
+  top:50vh;
+}
+.menu3 {
+  background: url("../img/m/menu3.png") no-repeat;
+  width: 60%;
+  height: 16vh;
+  position: absolute;
+  background-size: contain;
+  left: 0;
+  top:65vh;
+}
+
+.text-one-m {
+position: relative;
+font-family: Russo One;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 80.5%;
+text-align: center;
+color: rgb(11, 123, 151);
+margin-top: 42vh;
+}

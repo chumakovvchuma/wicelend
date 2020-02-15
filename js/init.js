@@ -22,9 +22,11 @@
           $( ".menu-one" ).slideToggle("slow");
           $( ".menu-two" ).slideToggle("slow");
           $( ".menu-three" ).slideToggle("slow");
+          
         },       
       after:function() {
         console.log("hii");
+        
       },
       afterResize:function() {},
       afterRender:function() {}
