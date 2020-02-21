@@ -1,5 +1,6 @@
 // @ts-nocheck
 $( document ).ready(function(){
+
   let curr = $.scrollify.currentIndex();
   console.log(curr)
 

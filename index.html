@@ -7,6 +7,7 @@
 
   <!-- CSS  -->
   <!-- <link href="css/mw480.css" rel="stylesheet" media="only screen and (max-width:480px)" /> -->
+  <link href="https://fonts.googleapis.com/css?family=Neucha&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=PT+Sans+Narrow&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
@@ -16,20 +17,25 @@
 </head>
 <body>
   
-  <div class="scrollLink home" data-section-name="onePage" id="main-content" style="width: 100vw;height: 800px;position:relative;">
+  <div class="scrollLink" data-section-name="onePage" id="main-content" style="width: 100vw;height: 800px;position:relative;">
     <div class="hide-on-small-only">
+      <svg id="ckLine" xmlns="http://www.w3.org/2000/svg"></svg>
 <div class="header-img"></div>
 <div class="footer-img"></div>
 <div class="logo-text">
-  Розумні міста, системи 
-  забезпечення прозорості
-   державних органів,
-потребують сучасний
-підхід спілкування
-з громадою.
-Ми - це розумна і людяна
- технічна підтримка
-твого міста.
+  <div class="sign">
+  
+    <span class="sign__wordd">Розумні міста, системи </span>
+    <span class="sign__wordd">забезпечення прозорості</span>
+    <span class="sign__wordd">державних органів, </span>
+    <span class="sign__wordd">потребують сучасний</span>
+    <span class="sign__wordd">підхід спілкування</span>
+    <span class="sign__wordd">з громадою.</span>
+    <span class="sign__wordd">Ми - це розумна і людяна</span>
+    <span class="sign__wordd">технічна підтримка</span>
+    <span class="sign__wordd">твого міста</span>
+
+</div>
 </div>
 <div class="logo"></div>
 <a class="link-to-two" href="#twoPage">
@@ -85,7 +91,7 @@
     <a class="link-three-m" href="#threePage"><div class="menu2"></div></a>
     <a class="link-four-m" href="#fourPage"><div class="menu3"></div></a>
   </div>
-  <div class="col s6 right  text-one-m">
+  <div class="col s6 right  text-one-m ">
   Ми - це <br>
   <br>розумна і
   <br>людяна
@@ -100,10 +106,54 @@
 
 <div class="sticky-cont menu">
 
-  <div class="section scrollLink" data-section-name="twoPage" id="main-content" style="width: 100vw;height: 800px;position:relative;">
+  <div class="section scrollLink home" data-section-name="twoPage" id="main-content" style="width: 100vw;height: 800px;position:relative;">
     <div class="hide-on-small-only">
+      <div class="row" style="margin-bottom: 0px;">
+      <div class="col s12">
+        <div class="two-page-logo">
+          определение определение такое<br>
+          такой второй страницы<br>
+          О нас
+        </div>
+      </div>
+      </div>
+    
+        <div class="row" style="margin-bottom: 0px;">
+          <div class="col s4 two-page-col-top">
+            <img class="fabric" src="./img/038.svg" style="max-height: 100%;">
+            <div class="fabric-text">
+              первая линия<br>
+              прапапа тарапа<br>
+              тарапввпляля тара
+            </div>
+          </div>
+          <div class="col s4 two-page-col-top">
+            <img class="fabric" src="./img/065.svg" style="max-height: 100%;">
+            <div class="fabric-text">
+              вторая линия<br>
+              прапапа тарапа<br>
+              тарапввпляля тара
+            </div>
+          </div>
+          <div class="col s4 two-page-col-top">
+            <img class="fabric" src="./img/067.svg" style="max-height: 100%;">
+            <div class="fabric-text">
+              третья линия<br>
+              прапапа тарапа<br>
+              тарапввпляля тара
+            </div>
+          </div>  
+        </div>
+
+        <div class="row" style="margin-bottom: 0px;">
+          <div class="col s12 two-page-col-bottom">
+            
+          </div>
+        </div> 
+      
     <div class="header-img"></div>
     <div class="footer-img"></div>
+
 
   </div>
 
@@ -131,10 +181,12 @@
 
 
     
+
   
   </div>
   <div class="section scrollLink" data-section-name="threePage" id="main-content" style="width: 100vw;height: 800px;position:relative;">
     <div class="hide-on-small-only">
+      
     <div class="header-img"></div>
     <div class="footer-img"></div>
     <div class="project-img"></div>
@@ -177,13 +229,25 @@
   </div>
 </div>
 
+
   <!--  Scripts-->
-  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="./js/jquery.ckLine.js"></script>
+  <!-- <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script> -->
   <script src="./js/heightexp.js"></script>
   <script src="js/materialize.js"></script>
   <script src="js/init.js"></script>
   <script src="js/jquery.scrollify.js"></script>
   <script src="./js/index.js"></script>
+  <script>
+    $('#ckLine').ckLine({
+    leftRight: true,
+    strokeColor: '#bedae0',
+    interval: 600,
+    animateTime: 1600,
+    animationTimeRange: [800, 1600]
+});
+</script>
 
   
   </body>
